@@ -1,6 +1,6 @@
 /**
- *  Name:
- *  Class Group:
+ *  Name: Michal Becmer
+ *  Class Group: GD2A
  */
 public class CA3_Question1
 {
