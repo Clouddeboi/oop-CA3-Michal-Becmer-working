@@ -6,11 +6,11 @@ import java.util.Scanner;
  *  Class Group: GD2A
  */
 
-class Block {
+class Blockq6 {
     int quantity;
     double price;
 
-    public Block(int quantity, double price) {
+    public Blockq6(int quantity, double price) {
         this.quantity = quantity;
         this.price = price;
     }
@@ -32,7 +32,7 @@ public class CA3_Question6
         double profitTotal = 0;//total from selling shares (Profit)
 
         String command="";
-            do {
+        do {
             System.out.print(">");
             command = in.next();
             if(command.equalsIgnoreCase("buy"))
