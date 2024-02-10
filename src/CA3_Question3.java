@@ -22,14 +22,16 @@ public class CA3_Question3
             int lineNum = 0;//initialize the line number
 
             //read the file line by line
-            while (s.hasNextLine()) {
+            while (s.hasNextLine())
+            {
                 lineNum++;//increment lineNum
                 String line = s.nextLine();//read line and store in variable line
                 Scanner l = new Scanner(line);//new scanner to process line
                 l.useDelimiter("[^A-Za-z0-9_]+");// Set the delimiter to split the line into tokens, considering only alphanumeric characters and underscores.
 
                 //get identifiers from each line
-                while (l.hasNext()) {
+                while (l.hasNext())
+                {
                     String indentifier = l.next();
 
                     //checking if the identifier is not a java keyword
