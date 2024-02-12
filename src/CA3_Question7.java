@@ -40,6 +40,7 @@ public class CA3_Question7
                 String companyName = in.next();//companys name
                 int qty = in.nextInt();//quantity of blocks
                 double price = in.nextDouble();//price of blocks (each)
+
                 sharesMap.putIfAbsent(companyName, new LinkedList<>());//if the company exists this does nothing if it doesn't it adds the company to a new linked list
                 sharesMap.get(companyName).add(new Block(qty,price));//add shares to que(bought)
             }
